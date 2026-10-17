@@ -3,39 +3,54 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
     <title>PharmaStock AI</title>
 
     <style>
         body {
             font-family: Arial, sans-serif;
-            background: #f2f5f9;
+            background: #f1f5f9;
             margin: 0;
-            color: #243447;
+            padding: 20px;
         }
 
         header {
             background: #123b63;
             color: white;
-            padding: 22px;
+            padding: 25px;
+            border-radius: 10px;
         }
 
-        header h1 {
-            margin: 0;
+        .card {
+            background: white;
+            padding: 25px;
+            margin-top: 20px;
+            border-radius: 10px;
         }
 
-        header p {
-            margin-bottom: 0;
+        h1 {
+            margin-bottom: 8px;
         }
 
-        main {
-            padding: 20px;
-            max-width: 1200px;
-            margin: auto;
+        h2 {
+            color: #087f70;
         }
+    </style>
+</head>
 
-        .cards {
-            display: grid;
-            grid-template-columns: repeat(
-                auto-fit, minmax(140px, 1fr)
-            );
+<body>
+    <header>
+        <h1>PharmaStock AI</h1>
+        <p>Pharmaceutical Inventory and Expiry Management</p>
+    </header>
+
+    <div class="card">
+        <h2>Welcome to PharmaStock AI!</h2>
+
+        <p>Your pharmaceutical inventory system is running.</p>
+
+        <p>Manage product batches, stock quantities and expiry dates.</p>
+
+        <p>Monitor low-stock levels and identify products approaching expiry.</p>
+    </div>
+</body>
+</html>
